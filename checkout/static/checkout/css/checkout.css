@@ -1,3 +1,9 @@
+.order_email_confirmation {
+  color: rgb(255, 2, 2);
+}
+
+
+
 .StripeElement,
 .stripe-style-input {
   box-sizing: border-box;
