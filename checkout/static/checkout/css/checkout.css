@@ -1,9 +1,3 @@
-.order_email_confirmation {
-  color: rgb(255, 2, 2);
-}
-
-
-
 .StripeElement,
 .stripe-style-input {
   box-sizing: border-box;
@@ -42,3 +36,36 @@
     color: #000;
     border: 1px solid #000;
 }
+
+/* ---------------------------------- Payment spinner */
+
+#loading-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(23, 162, 184, .85);
+  z-index: 9999;
+}
+
+.loading-spinner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  height: 100%;
+}
+
+
+
+/* ---------------------------------- Show the confirmation email address in colour to the user */
+
+.order_email_confirmation {
+  color: rgb(255, 2, 2);
+}
+
+
+
+
