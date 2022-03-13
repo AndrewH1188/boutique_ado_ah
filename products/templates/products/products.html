@@ -130,6 +130,7 @@
     </div>
 </div>
 </div>
+<!--Back to top button -->
 <div class="btt-button shadow-sm rounded-0 border border-block">
     <a class="btt-link d-flex h-100">
         <i class="fas fa-arrow-up text-black mx-auto my-auto"></i>
@@ -140,10 +141,10 @@
 {% block postloadjs %}
     {{ block.super }}
     <script type="text/javascript">
+        // Back to top
         $('.btt-link').click(function(e) {
             window.scrollTo(0,0)
         })
-
     </script>
 
     <script type="text/javascript">
